@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(backr.png);
+    color: white;
+}
+header {
+    background-color: #4e568e;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+}
+.b1 {
+    background-color: #4e568e;
+    border: 3px solid #f54b64;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b1:hover {
+    background-color: #f54b64;
+    border: 3px solid #4e568e;
+    color: white;
+}
