@@ -1,37 +1,33 @@
 body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(backr.png);
+    background-image: url(bob.png);
     color: white;
 }
 header {
-    background-color: #4e568e;
+    background-image: url(backr_light.png);
     border-radius: 10px;
     padding-bottom: 15px;
     padding-top: 2px;
 }
 .b1 {
-    background-color: #4e568e;
-    border: 3px solid #f54b64;
+    background-color: #D0B5B6;
+    border: 3px solid #B8D2D9;
     color: white;
     font-size: larger;
     border-radius: 5px;
     cursor: pointer;
 }
 .b1:hover {
-    background-color: #f54b64;
-    border: 3px solid #f54b64;
+    background-color: #B8D2D9;
+    border: 3px solid #B8D2D9;
     color: white;
 }
-div{
-    background-image: url(backr.png);
-}
 footer {
-    background-color: #4e568e;
+    background-image: url(backr_light.png);
     border-radius: 10px;
     padding-bottom: 15px;
     padding-top: 2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .b2{
     width: 50px;
