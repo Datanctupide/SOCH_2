@@ -9,14 +9,16 @@
 <body>
     <header>
         <h1>Geobrit</h1>
-        <h3>Нажмите на кнопку ниже что бы узнать куда можно пойти</h3>
-        <button class="b1" onclick="getLocation()">Нажать</button>
-    </header>
-    <div>
-        <div class="d1">
-            <p id="output"></p>
+        <div class="g">
+            <div id="weather">Загрузка погоды…</div>
+            <div id="status"></div>
         </div>
-    </div>
+    </header>
+
+    <main id="app">
+        <div id="cards" class="grid"></div>
+        <div id="details" class="hidden"></div>
+    </main>
     <footer>
         <p>@Datan 2025</p>
         <a class="b2" id="b2" href="main_light.html">🌞</a>

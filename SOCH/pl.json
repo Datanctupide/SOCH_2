@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Парк Центральный",
+        "description": "Большой зелёный парк для прогулок.",
+        "image": "https://picsum.photos/600/400?1",
+        "coordinates": { "lat": 55.751244, "lon": 37.618423 }
+    },
+    {
+        "id": 2,
+        "name": "Музей Истории",
+        "description": "Популярный музей с интересными выставками.",
+        "image": "https://picsum.photos/600/400?2",
+        "coordinates": { "lat": 55.7601, "lon": 37.6204 }
+    },
+    {
+        "id": 3,
+        "name": "Набережная",
+        "description": "Приятное место для отдыха у воды.",
+        "image": "https://picsum.photos/600/400?3",
+        "coordinates": { "lat": 55.75, "lon": 37.60 }
+    }
+]

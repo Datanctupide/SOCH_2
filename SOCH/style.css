@@ -1,3 +1,100 @@
+
+:root {
+    --green: #2e8b57;
+    --green-light: #3fa46a;
+    --bg: #f5fff7;
+    --shadow: rgba(0,0,0,0.1);
+}
+
+header {
+    padding: 15px;
+    background: var(--green);
+    color: white;
+    text-align: center;
+}
+
+.g {
+    border-radius: 10px;
+}
+
+#weather {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px var(--shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card-desc {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-distance {
+    font-weight: bold;
+    color: var(--green);
+    margin-bottom: 12px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.fav-btn {
+    background: var(--green-light);
+    color: white;
+}
+
+.details {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* --- Адаптивность --- */
+@media (min-width: 1024px) {
+    #weather { font-size: 16px; }
+}
 body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
