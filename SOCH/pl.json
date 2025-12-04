@@ -3,21 +3,21 @@
         "id": 1,
         "name": "Парк Центральный",
         "description": "Большой зелёный парк для прогулок.",
-        "image": "https://picsum.photos/600/400?1",
+        "image": "https://cdn02.qazaqstan.tv/2025/10/13/1760342661_68ecb285d44ca.jpeg",
         "coordinates": { "lat": 55.751244, "lon": 37.618423 }
     },
     {
         "id": 2,
         "name": "Музей Истории",
         "description": "Популярный музей с интересными выставками.",
-        "image": "https://picsum.photos/600/400?2",
+        "image": "https://avatars.mds.yandex.net/i?id=48aaab35107da4b138b34bd1dbc52e14_l-10685755-images-thumbs&n=13",
         "coordinates": { "lat": 55.7601, "lon": 37.6204 }
     },
     {
         "id": 3,
         "name": "Набережная",
         "description": "Приятное место для отдыха у воды.",
-        "image": "https://picsum.photos/600/400?3",
+        "image": "https://informburo.kz/storage/photos/oldArticle/main/DWwLuBLOxWSvtign.jpg",
         "coordinates": { "lat": 55.75, "lon": 37.60 }
     }
 ]

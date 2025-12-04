@@ -4,26 +4,84 @@ body {
     background-image: url(bob.png);
     color: white;
 }
-header {
-    background-image: url(backr_light.png);
+.g {
     border-radius: 10px;
-    padding-bottom: 15px;
-    padding-top: 2px;
 }
-.b1 {
-    background-color: #D0B5B6;
-    border: 3px solid #B8D2D9;
+#weather {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-card {
+    background-color: #B8D2D9;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 15px;
+}
+.card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.card-desc {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.card-distance {
+    font-weight: bold;
+    color: var(--green);
+    margin-bottom: 12px;
+}
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #B8D2D9;
+    border: 4px solid #f3c600;
+    color: white;
+}
+button:hover{
+    background-color: #f3c600;
+    border: 4px solid #f3c600;
+}
+.fav-btn {
+    background: var(--green-light);
     color: white;
     font-size: larger;
-    border-radius: 5px;
-    cursor: pointer;
 }
-.b1:hover {
+.details {
+    padding: 20px;
     background-color: #B8D2D9;
-    border: 3px solid #B8D2D9;
-    color: white;
+    border-radius: 10px;
 }
-footer {
+.hidden {
+    display: none;
+    background-color: #B8D2D9;
+}
+header {
     background-image: url(backr_light.png);
     border-radius: 10px;
     padding-bottom: 15px;
@@ -35,4 +93,11 @@ footer {
 }
 .b2:hover {
     cursor: pointer;
+}
+footer {
+    margin-top: 250px;
+    background-image: url(backr_light.png);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 2px;
 }

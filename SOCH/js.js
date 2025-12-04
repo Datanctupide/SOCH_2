@@ -106,19 +106,21 @@ function renderCards() {
         card.className = "card";
 
         card.innerHTML = `
-            <img src="${place.image}" alt="${place.name}">
-            <div class="card-content">
-                <div class="card-title">${place.name}</div>
-                <div class="card-desc">${place.description}</div>
-                ${
-                    userCoords
-                    ? `<div class="card-distance">${place.distance} км от вас</div>`
-                    : ""
-                }
-            </div>
-            <div class="btn-row">
-                <button class="fav-btn">⭐</button>
-                <button class="details-btn">Подробнее</button>
+            <div class="card-card">
+                <img src="${place.image}" alt="${place.name}">
+                <div class="card-content">
+                    <div class="card-title">${place.name}</div>
+                    <div class="card-desc">${place.description}</div>
+                    ${
+                        userCoords
+                        ? `<div class="card-distance">${place.distance} км от вас</div>`
+                        : ""
+                    }
+                </div>
+                <div class="btn-row">
+                    <button class="fav-btn">⭐</button>
+                    <button class="details-btn">Подробнее</button>
+                </div>
             </div>
         `;
 
